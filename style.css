@@ -1,0 +1,92 @@
+
+            .heading{
+                font-size: 25px;
+                font-weight: bold;
+                font-family: sans-serif;
+                padding: 10px;
+                margin: 20px;
+            }
+            header{
+
+                position: fixed;
+                top: 0;
+            }
+            h2{
+                text-align: center;
+                background-color: #E0F1BB;
+                border-radius: 5px;
+                padding: 15px 15px;
+                margin-top: 0;
+                margin-bottom: 0;
+
+            }
+            h2:hover{
+                transition: all 0.4s ease-in-out;
+                background-color: #55C871;
+            }
+            .main{
+                font-family: fantasy;
+                text-align: left;
+                background-color: #FDDEC1;
+            }
+            .main:hover{
+                background-color: #C0F9FF;
+                transition: all 0.4s ease-in-out;
+            }
+            .bdy{
+                padding: 10px;
+                margin: 20px;
+            }
+            .tblsdw{
+                box-shadow: 16px 16px 16px #ccc;
+            }
+
+            .menu{
+                background-color: #17505D;
+                text-align: center; 
+                margin-bottom: 0;
+                border-radius: 6px;
+
+            }
+            .menu:hover{
+                background-color: #689722;
+                transition: all 0.4s ease-in-out;
+            }
+
+            li{
+                display: inline-block;
+                margin-left: 30px;
+                padding: 12px 14px;
+            }
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+
+            li:hover{
+              transition: all 0.4s ease-in-out;
+              background-color: #0A4130;
+              border-radius: 6px;
+              padding: 12px 14px;
+              font-weight: bold;
+              transition: all 0.4s ease-in-out;
+          }
+
+          .ftr{
+            background-color: #C7BDF8;
+          }
+          .ftr:hover{
+                background-color: #9AFFB7;
+                font-weight: bold;
+                transition: all 0.4s ease-in-out;
+          }
+          @media only screen and (max-width: 768){
+            table{
+                background-color: #D2FFDF;
+            }
+            body{
+                background-color: #51785C;
+            }
+            
+          }
+        
